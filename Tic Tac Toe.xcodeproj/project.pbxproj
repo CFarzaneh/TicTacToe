@@ -14,6 +14,7 @@
 		DF14EB251DA5BA0900363ACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF14EB231DA5BA0900363ACC /* LaunchScreen.storyboard */; };
 		DF14EB301DA5BA0900363ACC /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF14EB2F1DA5BA0900363ACC /* Tic_Tac_ToeTests.swift */; };
 		DF14EB3B1DA5BA0900363ACC /* Tic_Tac_ToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF14EB3A1DA5BA0900363ACC /* Tic_Tac_ToeUITests.swift */; };
+		DFD557E71DA5D79900B76DDB /* BoardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD557E61DA5D79900B76DDB /* BoardCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DF14EB361DA5BA0900363ACC /* Tic Tac ToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac ToeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF14EB3A1DA5BA0900363ACC /* Tic_Tac_ToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeUITests.swift; sourceTree = "<group>"; };
 		DF14EB3C1DA5BA0900363ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD557E61DA5D79900B76DDB /* BoardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				DF14EB1A1DA5BA0900363ACC /* AppDelegate.swift */,
 				DF14EB1C1DA5BA0900363ACC /* ViewController.swift */,
+				DFD557E61DA5D79900B76DDB /* BoardCollectionViewCell.swift */,
 				DF14EB1E1DA5BA0900363ACC /* Main.storyboard */,
 				DF14EB211DA5BA0900363ACC /* Assets.xcassets */,
 				DF14EB231DA5BA0900363ACC /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				DF14EB1D1DA5BA0900363ACC /* ViewController.swift in Sources */,
 				DF14EB1B1DA5BA0900363ACC /* AppDelegate.swift in Sources */,
+				DFD557E71DA5D79900B76DDB /* BoardCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +419,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B2VQQC446E;
 				INFOPLIST_FILE = "Tic Tac Toe/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cfarzaneh.Tic-Tac-Toe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B2VQQC446E;
 				INFOPLIST_FILE = "Tic Tac Toe/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cfarzaneh.Tic-Tac-Toe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,6 +518,7 @@
 				DF14EB411DA5BA0900363ACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF14EB421DA5BA0900363ACC /* Build configuration list for PBXNativeTarget "Tic Tac ToeTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +527,7 @@
 				DF14EB441DA5BA0900363ACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF14EB451DA5BA0900363ACC /* Build configuration list for PBXNativeTarget "Tic Tac ToeUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +536,7 @@
 				DF14EB471DA5BA0900363ACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
